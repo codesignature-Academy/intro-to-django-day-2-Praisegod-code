@@ -67,9 +67,14 @@ urlpatterns = [
 ## Homework Questions (answer in your README)
 
 1. In your own words, explain the difference between a project and an app.
+project is the entire website someone is building while an app is a specific module that does one particular job inside the project.
 2. What command creates a new Django app?
+python manage.py startapp (your apps name)
 3. Why do we register an app inside `INSTALLED_APPS`?
+we register our app inside 'installed apps' so django the knows the app eists in our project
 4. What does giving a URL a `name=` actually let you do later?
+Giving a URL a name= creates a shortcut for that specific path. This lets you call the url anywhere else in your project using just that name instead of the actual path (like "/about/").
+
 
 ---
 
